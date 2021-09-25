@@ -1,0 +1,31 @@
+---
+layout: page
+title: About
+description: 关于
+keywords: George, Resume, Skills, unigeorge
+comments: false
+menu: 关于
+permalink: /about/
+---
+
+> 欢迎找我一起玩耍、学习、交流技术~
+
+个人简介
+
+成长中的大数据开发工程师
+
+## 技能
+
+- Java、Scala、Python
+
+- Hadoop、Spark、Flink
+
+## 参与翻译项目
+
+- [unigeorge - Linux 中国翻译组（LCTT）- Linux 中国◆开源社区](https://linux.cn/lctt/unigeorge)
+
+## 联系
+
+- Email&nbsp;&nbsp;: [unigeorge@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cUBEQERHSUFAQUExAABfEh4c)
+
+- GitHub: [https://github.com/unigeorge](https://github.com/unigeorge)

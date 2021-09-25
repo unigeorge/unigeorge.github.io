@@ -1,0 +1,14 @@
+_site/
+*.sw[po]
+*.~vsd
+\#*\#
+*~
+.DS_Store
+Gemfile.lock
+.vscode/
+.jekyll-metadata
+
+/_drafts
+
+/dist.tar.gz
+/.jekyll-cache
