@@ -22,7 +22,9 @@ permalink: /about/
 
 ## 参与翻译项目
 
-- [unigeorge - Linux 中国翻译组（LCTT）- Linux 中国◆开源社区](https://linux.cn/lctt/unigeorge)
+- [LCTT（Linux 中国翻译组）](https://linux.cn/lctt/unigeorge)
+
+- [TED](https://www.ted.com/profiles/30267943)
 
 ## 联系
 
