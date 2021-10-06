@@ -6,14 +6,14 @@ url: https://unigeorge.github.io/
 date_format: "ordinal"
 title: George
 subtitle: "欢迎来到我的博客"
-description: "unigeorge的个人博客"
+description: "unigeorge 的个人博客"
 keywords: George, unigeorge, blog
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: unigeorge/unigeorge.github.io
 
-# 兔小巢地址，会在feedback页面中重定向到该地址
+# 兔小巢地址，会在 feedback 页面中重定向到该地址
 feedbackUrl: https://support.qq.com/products/341710
 
 # 对 css 和 js 资源的 cdn 加速配置

@@ -8,7 +8,16 @@ menu: 链接
 permalink: /links/
 ---
 
-> 君子之交淡若水
+> 如有互加友链意向，请 [点此留言](/feedback/)
+
+> 本站的友链信息如下:
+
+```
+名称：{{ site.title }}
+描述：{{ site.description }}
+地址：{{ site.baseurl }}{{ site.url }}
+头像：{{ site.baseurl }}{{ site.url }}/assets/images/qrcode.jpg
+```
 
 <ul>
 {% for link in site.data.links %}
@@ -17,8 +26,6 @@ permalink: /links/
   {% endif %}
 {% endfor %}
 </ul>
-
-> 如有互加友链意向，请 [点此留言](/feedback/)
 
 <ul>
 {% for link in site.data.links %}
