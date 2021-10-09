@@ -56,7 +56,7 @@ object Test {
 
 - 将 var 替换为 def
 
-  可以参考一下 [此问题](https://stackoverflow.com/questions/45654315/forward-reference-extends-over-definition-of-value)，本质是将 s 看作了一个函数而非变量。
+  可以参考一下[此问题](https://stackoverflow.com/questions/45654315/forward-reference-extends-over-definition-of-value)，本质是将 s 看作了一个函数而非变量。
 
 ```
 object Test {

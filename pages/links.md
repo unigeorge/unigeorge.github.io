@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> 如有互加友链意向，请 [点此留言](/feedback/)
+> 如有互加友链意向，可[点此留言](/feedback/)
 
 > 本站的友链信息如下:
 
