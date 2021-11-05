@@ -24,7 +24,7 @@ permalink: /about/
 
 - [LCTT（Linux 中国翻译组）](https://linux.cn/lctt/unigeorge)
 
-- [TED](https://www.ted.com/profiles/30267943/translator)
+- [TED Translator](https://www.ted.com/profiles/30267943/translator)
 
 ## 联系
 
