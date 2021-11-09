@@ -16,9 +16,9 @@ permalink: /about/
 
 ## 技能
 
-- Java、Scala、Python
+- **Java**、Scala、Python
 
-- Hadoop、Spark、Flink
+- Hadoop、Spark、**Flink**
 
 ## 参与翻译项目
 
@@ -34,4 +34,4 @@ permalink: /about/
 
 ## 最近在听
 
-<iframe src="//music.163.com/outchain/player?type=2&id=27495001&auto=0&height=66" frameborder="0" width="100%" height="86px" ></iframe>
+<iframe src="//music.163.com/outchain/player?type=2&id=486806&auto=0&height=66" frameborder="0" width="100%" height="86px" ></iframe>
