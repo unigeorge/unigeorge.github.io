@@ -8,7 +8,7 @@ menu: 笔记
 permalink: /notes/
 ---
 
-> 好记性不如烂笔头！这里记录了一些偶尔会用到的知识点，备以查询。
+> 好记性不如烂笔头！这里记录了一些技能基础和学习心得。
 
 <ul class="listing">
 {% for note in site.notes %}

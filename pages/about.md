@@ -8,17 +8,21 @@ menu: 关于
 permalink: /about/
 ---
 
-> 欢迎找我一起玩耍、学习、交流技术~
+> 欢迎找我一起玩耍、学习、交流技术
 
 个人简介
 
-成长中的大数据开发工程师
+成长中的数据开发工程师
 
 ## 技能
 
-- **Java**、Scala、Python
+- **Python**、Java、Scala
 
-- Hadoop、Spark、**Flink**
+- Hadoop、**Spark**、Flink、**Hive**
+
+- MySQL、Druid、Hbase、ClickHouse
+
+- Airflow
 
 ## 参与翻译项目
 
