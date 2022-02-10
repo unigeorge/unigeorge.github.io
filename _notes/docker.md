@@ -8,6 +8,10 @@ keywords: Docker
 
 ## 基础
 
+初学 Docker 技术时参考 [Docker 最新超详细版教程通俗易懂](https://www.bilibili.com/video/BV1og4y1q7M4?from=search&seid=7858926379313694975&spm_id_from=333.337.0.0) 以及 [Docker 快速入门总结笔记](https://blog.csdn.net/huangjhai/article/details/118854733)，后续更多知识点参考官方文档。
+
+### 常用命令
+
 ```
 docker version  #详细版本信息
 docker -v       #简略版本信息
@@ -29,7 +33,4 @@ docker run -d --name mysql_server -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 mys
 
 #进入运行中的容器，-it 表示交互式进入容器内
 docker exec -it f90ba583db6d /bin/bash
-
 ```
-
-初学 Docker 技术时参考视频 [Docker 最新超详细版教程通俗易懂](https://www.bilibili.com/video/BV1og4y1q7M4?from=search&seid=7858926379313694975&spm_id_from=333.337.0.0) 以及对应网络笔记 [Docker 快速入门总结笔记](https://blog.csdn.net/huangjhai/article/details/118854733)，后续更多知识点参考官方文档。
