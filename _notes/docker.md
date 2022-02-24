@@ -50,4 +50,7 @@ docker cp 容器id:容器内路径 主机路径    # 拷贝
 
 docker volume ls                # 列出所有数据卷信息
 docker volume inspect 数据卷名  # 列出指定数据卷详细信息
+
+# --volumes-from 实现“数据卷容器”   共享数据
+docker run -it --name mysql02 --volumes-from mysql01 -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 mysql
 ```
