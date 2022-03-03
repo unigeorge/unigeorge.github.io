@@ -40,7 +40,7 @@ docker inspect f90ba583db6d     # 查看容器元数据信息
 docker cp 容器id:容器内路径 主机路径    # 拷贝
 ```
 
-### 进阶命令
+## 进阶命令
 
 ```
 # 三种挂载方式  容器内路径后可添加 :ro 表示容器内只读，:rw 表示容器内可读写
@@ -53,4 +53,19 @@ docker volume inspect 数据卷名  # 列出指定数据卷详细信息
 
 # --volumes-from 实现“数据卷容器”   共享数据
 docker run -it --name mysql02 --volumes-from mysql01 -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 mysql
+
+# DockerFile -> DockerImage -> DockerContainer
+# 自定义 centos DockerFile
+FROM scratch    # 指定基础镜像
+MAINTAINER      # 指定维护者信息
+RUN
+ADD
+WORKDIR         # 设置工作目录
+VOLUME          # 设置卷
+EXPOSE          # 暴露端口
+CMD             # 指定启动时运行的命令（只有最后一个生效）
+ENTRYPOINT      # 类似 CMD，可以追加
+ONBUILD 
+COPY            # 将文件拷贝到镜像中
+ENV             # 构建的时候设置环境变量
 ```

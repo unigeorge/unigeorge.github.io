@@ -18,7 +18,7 @@ permalink: /about/
 
 - **Python**、Java、Scala
 
-- Hadoop、**Spark**、Flink、**Hive**
+- Hadoop、**Spark**、**Flink**、**Hive**
 
 - MySQL、Druid、Hbase、ClickHouse
 
