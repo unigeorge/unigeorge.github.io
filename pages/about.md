@@ -22,7 +22,7 @@ permalink: /about/
 
 - MySQL、Druid、Hbase、ClickHouse
 
-- Airflow
+- [点此查看更多](/images/pages/about/技能.svg)
 
 ## 参与翻译项目
 
