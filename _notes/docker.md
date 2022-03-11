@@ -56,16 +56,34 @@ docker run -it --name mysql02 --volumes-from mysql01 -e MYSQL_ROOT_PASSWORD=1234
 
 # DockerFile -> DockerImage -> DockerContainer
 # 自定义 centos DockerFile
-FROM scratch    # 指定基础镜像
+FROM scratch    # 指定基础镜像，多数基础镜像为 scratch
 MAINTAINER      # 指定维护者信息
 RUN
 ADD
-WORKDIR         # 设置工作目录
+WORKDIR         # 设置工作目录，直接进入容器时的目录
 VOLUME          # 设置卷
 EXPOSE          # 暴露端口
 CMD             # 指定启动时运行的命令（只有最后一个生效）
-ENTRYPOINT      # 类似 CMD，可以追加
+ENTRYPOINT      # 类似 CMD，可以追加，都会生效      CMD 与 ENTRYPOINT 的追加包括 run 命令最后跟的参数
 ONBUILD 
 COPY            # 将文件拷贝到镜像中
 ENV             # 构建的时候设置环境变量
+
+# 实例：构建 centos DockerFile，命名 mydockerfile
+FROM centos
+MAINTAINER george<george@example.com>
+ENV MYPATH /usr/local
+WORKDIR $MYPATH
+RUN yum -y install vim
+RUN yum -y install net-tools
+EXPOSE 80
+CMD echo $MYPATH
+CMD ["ls", "-a"]    
+CMD /bin/bash           # 运行容器时只有本行 CMD 生效
+
+# 实例：使用构建的 DockerFile 生成镜像，最后的 . 表示当前目录
+docker build -f mydockerfile -t mycentos:0.1 .
+
+# 查看镜像制作过程
+docker history 镜像id
 ```

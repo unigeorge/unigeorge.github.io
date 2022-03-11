@@ -1,9 +1,9 @@
 ---
 layout: note
-title: Note Template
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Identifier
+categories: [identifier]
+description: 一种 identifier 生成规则
+keywords: identifier, rowkey, imei, android_id
 ---
 
 针对移动互联网产品开展数据分析时，需要定义合适的逻辑来进行去重、标记设备等操作。
