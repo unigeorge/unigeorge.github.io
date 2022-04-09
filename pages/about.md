@@ -16,11 +16,11 @@ permalink: /about/
 
 ## 技能
 
-- **Python**、Java、Scala
+- **Python**、Java、Scala、SQL
 
 - Hadoop、**Spark**、**Flink**、**Hive**
 
-- MySQL、Druid、Hbase、ClickHouse
+- MySQL、HBase、ClickHouse、Redis
 
 - [点此查看更多](/images/pages/about/技能.svg)
 
