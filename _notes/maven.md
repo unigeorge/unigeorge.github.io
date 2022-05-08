@@ -111,7 +111,7 @@ implicit val formats=org.json4s.DefaultFormats
 
 ### 删除失败文件
 
-Maven 下载依赖库 Jar 包失败后，不能自动重新下载，需要手动删除失败文件。也可运行包含以下代码的脚本解决问题，具体见代码内说明文字。
+Maven 下载依赖库 Jar 包失败后，不能自动重新下载，需要手动删除失败文件。Windows 系统也可运行包含以下代码的脚本解决问题，具体见代码内说明文字。
 
 ```
 @echo off
