@@ -59,13 +59,14 @@ docker run -it --name mysql02 --volumes-from mysql01 -e MYSQL_ROOT_PASSWORD=1234
 # 自定义 centos DockerFile
 FROM scratch    # 指定基础镜像，多数基础镜像为 scratch
 MAINTAINER      # 指定维护者信息
-RUN
+RUN             # 镜像构建（build）时运行的命令
 ADD
 WORKDIR         # 设置工作目录，直接进入容器时的目录
 VOLUME          # 设置卷
 EXPOSE          # 暴露端口
 CMD             # 指定启动时运行的命令（只有最后一个生效）
-ENTRYPOINT      # 类似 CMD，可以追加，都会生效      CMD 与 ENTRYPOINT 的追加包括 run 命令最后跟的参数
+ENTRYPOINT      # 类 CMD，可以追加，都会生效，追加内容可以是下一行接 CMD 或 ENTRYPOINT
+                # 注：CMD 与 ENTRYPOINT 的追加都包括 docker run 命令最后跟的参数（如 /bin/bash）
 ONBUILD 
 COPY            # 将文件拷贝到镜像中
 ENV             # 构建的时候设置环境变量
