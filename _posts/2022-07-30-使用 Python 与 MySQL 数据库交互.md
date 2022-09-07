@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用 Python 与 MySQL 数据库交互
-categories: [Python, MySQL]
+categories: [Python]
 description: Python 与 MySQL 交互心得
 keywords: Python, MySQL
 topmost: false
