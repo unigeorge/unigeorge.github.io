@@ -128,3 +128,9 @@ docker-compose restart   # 重启服务
 docker-compose start     # 启动服务
 docker-compose stop      # 停止服务
 ```
+
+## 实用经验
+
+### 日志清理
+
+某日发现容器运行所在服务器磁盘空间不足，查看后发现是 `/var/lib/docker/container/f2a8646430bd5c5bb09cd67240e9363c28fa8498097db047287425ad56ab53301` 目录下的日志文件过大导致（目录最后一级会根据容器不同发生变化）。参考[经验资料](https://developer.aliyun.com/article/843873)，使用 `cat /dev/null > *-json.log` 命令清空日志内容，并设置 crontab 任务定时清理日志。
