@@ -16,9 +16,9 @@ permalink: /about/
 
 ## 技能
 
-- **Python**、Java、Scala、SQL
+- Python、Java、Scala、SQL
 
-- Hadoop、**Spark**、**Flink**、**Hive**
+- Hadoop、Spark、Flink、Hive
 
 - MySQL、HBase、ClickHouse、Redis
 
