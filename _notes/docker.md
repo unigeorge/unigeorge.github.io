@@ -134,3 +134,38 @@ docker-compose stop      # 停止服务
 ### 日志清理
 
 某日发现容器运行所在服务器磁盘空间不足，查看后发现是 `/var/lib/docker/containers/f2a8646430bd5c5bb09cd67240e9363c28fa8498097db047287425ad56ab53301` 目录下的日志文件过大导致（目录最后一级会根据容器不同发生变化）。参考[经验资料](https://developer.aliyun.com/article/843873)，使用 `cat /dev/null > *-json.log` 命令清空日志内容，并设置 crontab 任务定时清理日志。
+
+相关命令：
+
+```
+sudo vim /opt/scripts/del_docker_log.sh     编辑脚本
+sudo crontab -e -u root                     设置定时任务
+sudo crontab -l -u root                     检查定时任务
+```
+
+添加定时任务内容为：
+
+```bash
+1 * * * * /bin/bash /opt/scripts/del_docker_log.sh
+```
+
+del_docker_log.sh 中内容为：
+
+```
+rate=`df -h | awk '{print $5,$NF}' | grep "/$" | awk '{print $1}' | awk -F% '{print $1}'`
+if [ ${rate} -lt 85 ];then
+    exit 0;
+else
+    log=`find /var/lib/docker/volumes -name "*.log*" -size +80M -mmin +600 -exec ls -lh {} \;| awk '{print $NF}'`
+    for f in $log;
+    do
+        echo > $f
+    done
+    log=`find /var/lib/docker/containers -name "*.log*" -size +80M -mmin +600 -exec ls -lh {} \;| awk '{print $NF}'`
+    for f in $log;
+    do
+        echo > $f
+    done
+    find /var/lib/docker/volumes/*/_data/core_* -mmin +600 | xargs rm -f
+fi
+```
