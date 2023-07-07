@@ -26,15 +26,19 @@ permalink: /about/
 
 ## 参与翻译项目
 
+- [TED Translator](https://www.ted.com/profiles/30267943/translator)
+
 - [LCTT（Linux 中国翻译组）](https://linux.cn/lctt/unigeorge)
 
-- [TED Translator](https://www.ted.com/profiles/30267943/translator)
+## 主页
+
+- GitHub: [https://github.com/unigeorge](https://github.com/unigeorge)
+
+- Leetcode: [https://leetcode.cn/u/unigeorge/](https://leetcode.cn/u/unigeorge/)
 
 ## 联系
 
-- Email&nbsp;&nbsp;: [unigeorge@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cUBEQERHSUFAQUExAABfEh4c)
-
-- GitHub: [https://github.com/unigeorge](https://github.com/unigeorge)
+- Email: [unigeorge@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=cUBEQERHSUFAQUExAABfEh4c)
 
 ## 最近在听
 
