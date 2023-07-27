@@ -24,17 +24,19 @@ permalink: /about/
 
 - [点此查看更多](/images/pages/about/技能.svg)
 
+## 主页
+
+- [GitHub](https://github.com/unigeorge)
+
+- [Leetcode](https://leetcode.cn/u/unigeorge/)
+
+- [Kaggle](https://www.kaggle.com/unigeorge)
+
 ## 参与翻译项目
 
 - [TED Translator](https://www.ted.com/profiles/30267943/translator)
 
 - [LCTT（Linux 中国翻译组）](https://linux.cn/lctt/unigeorge)
-
-## 主页
-
-- GitHub: [https://github.com/unigeorge](https://github.com/unigeorge)
-
-- Leetcode: [https://leetcode.cn/u/unigeorge/](https://leetcode.cn/u/unigeorge/)
 
 ## 联系
 
