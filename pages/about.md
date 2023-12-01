@@ -28,7 +28,7 @@ permalink: /about/
 
 - [GitHub](https://github.com/unigeorge)
 
-- [Leetcode](https://leetcode.cn/u/unigeorge/)
+- [LeetCode](https://leetcode.cn/u/unigeorge/)
 
 - [Kaggle](https://www.kaggle.com/unigeorge)
 
