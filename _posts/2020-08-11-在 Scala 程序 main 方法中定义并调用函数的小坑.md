@@ -7,7 +7,7 @@ keywords: Scala, Error
 topmost: false
 ---
 
-在 Scala 程序中遇到了一个 Error: forward reference extends over definition of variable，研究后发现是在 main 方法中定义和调用函数的顺序及位置导致，找到了一些解决办法但暂未能分析出根本原因，有待日后探究。
+在 Scala 程序中遇到了一个 Error: forward reference extends over definition of variable，研究后发现是在 main 方法中定义和调用函数的顺序及位置导致，找到了一些解决办法。
 
 ## 问题复现
 
